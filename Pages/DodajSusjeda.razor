@@ -3,38 +3,54 @@
 <div class="container">
     <div class="row">
         <div class="col-3"></div>
-        <div class="col-6">
-            <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlSelect1">Example select</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlSelect2">Example multiple select</label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-            </form>
+      <div class="col-6">
+        <div class="card pl-5 pr-5 pt-5 pb-5">
+          <form>
+            <div class="form-group pt-3">
+              <label for="idime">Ime</label>
+              <input type="text" class="form-control" id="idime" placeholder="Ime">
             </div>
+            <div class="form-group">
+              <label for="idprezime">Prezime</label>
+              <input type="text" class="form-control" id="idprezime" placeholder="Prezime">
+            </div>
+            <div class="form-group">
+              <label for="ideadresa">Adresa</label>
+              <input type="text" class="form-control" id="ideadresa" placeholder="Adresa">
+            </div>
+            <div class="form-group form-check pl-4 pt-4">
+              <input type="checkbox" class="form-check-input" id="idrukavica">
+              <label class="form-check-label" for="idrukavica">Ne nosi rukavice</label>
+            </div>
+            <div class="form-group form-check pl-4">
+              <input type="checkbox" class="form-check-input" id="idruka">
+              <label class="form-check-label" for="idruka">Ne pere ruke</label>
+            </div>
+            <div class="form-group form-check pl-4">
+              <input type="checkbox" class="form-check-input" id="idmaska">
+              <label class="form-check-label" for="idmaska">Ne nosi masku</label>
+            </div>
+            <div class="form-group form-check pl-4">
+              <input type="checkbox" class="form-check-input" id="iddistanca">
+              <label class="form-check-label" for="iddistanca">Ne drži distancu</label>
+            </div>
+            <div class="form-group form-check pl-4">
+              <input type="checkbox" class="form-check-input" id="idkaslje">
+              <label class="form-check-label" for="idkaslje">Kašlje</label>
+            </div>
+            <div class="form-group form-check pl-4 pb-4">
+              <input type="checkbox" class="form-check-input" id="idblid">
+              <label class="form-check-label" for="idblid">Malo mi je blid</label>
+            </div>
+            <div class="form-group pb-3">
+              <label for="idopis">Opis</label>
+              <textarea class="form-control" id="idopis" rows="3"></textarea>
+            </div>
+            <div class=""></div>
+            <button type="submit" class="btn btn-outline-dark float-right">Šu prijavi ga</button>
+          </form>
+          </div>
+      </div>
         </div>
         <div class="col-3"></div>
     </div>
