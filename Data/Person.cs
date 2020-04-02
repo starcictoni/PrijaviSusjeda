@@ -34,9 +34,6 @@ namespace PrijaviSusjeda.Data
             if (Blid) Rezultat++;
             if (Samoizolacija) Rezultat++;
             if (Distanca) Rezultat++;
-            Console.WriteLine(Ime);
-            Console.WriteLine(Prezime);
-            Console.WriteLine(Adresa);
         }
     }
 }

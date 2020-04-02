@@ -2,48 +2,43 @@
 @using PrijaviSusjeda.Data
 
 <div class="container">
-  <div class="row">
+  <div class="row mt-5 mb-5">
     <div class="col-2"></div>
-    <div class="col-8">
-      @if (People.people == null)
-      {
-          <p><em>Loading...</em></p>
-      }
-      else
-      {
-        <h2>
+    <div class="col-8 ml-2 mr-2 mt-2 mb-2">
+      <div class="card pl-3 pr-3 pt-3 pb-3">
+        <h2 class="mb-3">
           Top susjedi
         </h2>
         <table class="table table-striped table-dark">
-          <thead>
-          <tr>
-            <th scope="col">Ime</th>
-            <th scope="col">Prezime</th>
-            <th scope="col">Adresa</th>
-            <th scope="col">Grad</th>
-            <th scope="col">Poštanski broj</th>
-            <th scope="col">Županija</th>
-            <th scope="col">Broj noge</th>
-            <th scope="col">REZULTAT</th>
-          </tr>
-          </thead>
-          <tbody>
-          @foreach (var person in People.people)
-          {
+            <thead>
             <tr>
-              <td>@person.Ime</td>
-              <td>@person.Prezime</td>
-              <td>@person.Adresa</td>
-              <td>@person.Grad</td>
-              <td>@person.PostanskiBroj</td>
-              <td>@person.Zupanija</td>
-              <td>@person.BrojNoge</td>
-              <td>@person.Rezultat</td>
+              <th scope="col">Ime</th>
+              <th scope="col">Prezime</th>
+              <th scope="col">Adresa</th>
+              <th scope="col">Grad</th>
+              <th scope="col">Poštanski broj</th>
+              <th scope="col">Županija</th>
+              <th scope="col">Broj noge</th>
+              <th scope="col">REZULTAT</th>
             </tr>
-          }
-          </tbody>
-        </table>
-      }
+            </thead>
+            <tbody align="center">
+            @foreach (var person in People.people)
+            {
+              <tr>
+                <td>@person.Ime</td>
+                <td>@person.Prezime</td>
+                <td>@person.Adresa</td>
+                <td>@person.Grad</td>
+                <td>@person.PostanskiBroj</td>
+                <td>@person.Zupanija</td>
+                <td>@person.BrojNoge</td>
+                <td>@person.Rezultat</td>
+              </tr>
+            }
+            </tbody>
+          </table>
+      </div>
       </div>
     <div class="col-2"></div>
   </div>

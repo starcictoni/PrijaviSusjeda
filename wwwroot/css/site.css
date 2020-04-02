@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
 
 html, body {
-    background-color: #8dafce;
+    background-color: #fc5834;
     font-family: 'Magra', sans-serif;
 }
 
@@ -39,8 +39,8 @@ app {
     align-items: center;
 }
 .container-fluid {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 0px; !important;
+    margin-left: 0px; !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
@@ -198,4 +198,23 @@ app {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -50;
+}
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
 }
