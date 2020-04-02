@@ -1,4 +1,5 @@
 ﻿@page "/prijavisusjeda"
+@using System.Net.Sockets
 @using PrijaviSusjeda.Data
 
 <div class="container">
@@ -12,6 +13,7 @@
                     <div class="form-group pt-3">
                         <label for="ime">Ime</label>
                         <InputText id="ime" class="form-control" @bind-Value="_person.Ime"/>
+                        <p>@_person.Ime</p>
                     </div>
                     <div class="form-group">
                         <label for="prezime">Prezime</label>
@@ -35,7 +37,7 @@
                     </div>
                     <div class="form-group">
                         <label for="brojnoge">Broj noge</label>
-                        <InputText type="text" class="form-control" id="brojnoge" @bind-Value="_person.BrojNoge"/>
+                        <InputNumber type="int" class="form-control" id="brojnoge" @bind-Value="_person.BrojNoge"/>
                     </div>
                     <div class="form-group form-check pl-4 pt-4">
                         <input type="checkbox" class="form-check-input" id="idrukavica">
@@ -76,10 +78,11 @@
 
 @code {
     private Person _person = new Person();
+    People people = new People();
 
     private void HandleValidSubmit()
     {
-        Console.WriteLine("OnValidSubmit");
+        Console.WriteLine("Forma je ok.");
+        people.AddPerson(_person);
     }
-
 }
