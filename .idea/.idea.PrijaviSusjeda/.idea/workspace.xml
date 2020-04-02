@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="favicon, removed files">
+    <list default="true" id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/MainLayout.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,6 @@
         <option value="$PROJECT_DIR$/Pages/Prijavisusjeda.cshtml.cs" />
         <option value="$PROJECT_DIR$/Pages/Dodaj Susjeda.razor" />
         <option value="$PROJECT_DIR$/Shared/NavMenu.razor" />
-        <option value="$PROJECT_DIR$/Shared/MainLayout.razor" />
         <option value="$PROJECT_DIR$/wwwroot/css/site.css" />
         <option value="$USER_HOME$/Desktop/nikki/N/werk/new/faks/3. godina/6. semestar/Praktikum - DBulic/Rider/mini_projekt/mini_projekt/Program.cs" />
         <option value="$PROJECT_DIR$/Data/People.cs" />
@@ -53,8 +52,9 @@
         <option value="$PROJECT_DIR$/Data/Person.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Pages/_Host.cshtml" />
-        <option value="$PROJECT_DIR$/Pages/DodajSusjeda.razor" />
         <option value="$PROJECT_DIR$/Pages/Index.razor" />
+        <option value="$PROJECT_DIR$/Shared/MainLayout.razor" />
+        <option value="$PROJECT_DIR$/Pages/DodajSusjeda.razor" />
       </list>
     </option>
   </component>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585864502422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes">
+      <created>1585865594165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585865594165</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +189,8 @@
     <MESSAGE value="layout, form changes" />
     <MESSAGE value="hitlist done" />
     <MESSAGE value="favicon, removed files" />
-    <option name="LAST_COMMIT_MESSAGE" value="favicon, removed files" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="617" y="148" key="#PrijaviSusjeda" timestamp="1585835313318">
@@ -197,30 +205,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585767462803" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1585866187650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585866187650" />
     <state width="414" height="466" key="DebuggerActiveHint" timestamp="1585862349490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="414" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1585862349490" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1585864599044">
+    <state width="1877" height="141" key="GridCell.Tab.0.bottom" timestamp="1585866070170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585864599044" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1585864599044">
+    <state width="1877" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585866070170" />
+    <state width="1877" height="141" key="GridCell.Tab.0.center" timestamp="1585866070170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585864599044" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1585864599044">
+    <state width="1877" height="141" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585866070170" />
+    <state width="1877" height="141" key="GridCell.Tab.0.left" timestamp="1585866070170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585864599044" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1585864599044">
+    <state width="1877" height="141" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585866070170" />
+    <state width="1877" height="141" key="GridCell.Tab.0.right" timestamp="1585866070170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585864599044" />
+    <state width="1877" height="141" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585866070170" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585862351095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

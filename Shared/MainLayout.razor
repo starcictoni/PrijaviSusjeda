@@ -2,10 +2,7 @@
 <div class="main">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand" href="" Match="NavLinkMatch.All>Navbar"></a>
-        <button class="navbar-toggler" @onclick="ToggleNavMenu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " @onclick="ToggleNavMenu" id="navbarNav">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <NavLink class="nav-link pr-1" href="">
@@ -30,14 +27,3 @@
         @Body
     </div>
 </div>
-
-@code {
-    public bool collapseNavMenu = true;
-    public string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    public void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-
-}
