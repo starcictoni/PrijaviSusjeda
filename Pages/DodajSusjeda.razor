@@ -1,72 +1,86 @@
 ﻿@page "/prijavisusjeda"
+@using PrijaviSusjeda.Data
 
 <div class="container">
-  <div class="row">
-    <div class="col-3"></div>
-    <div class="col-6">
-      <div class="card pl-5 pr-5 pt-5 pb-5">
-        <form>
-          <div class="form-group pt-3">
-            <label for="idime">Ime</label>
-            <input type="text" class="form-control" id="idime" placeholder="Ime">
-          </div>
-          <div class="form-group">
-            <label for="idprezime">Prezime</label>
-            <input type="text" class="form-control" id="idprezime" placeholder="Prezime">
-          </div>
-          <div class="form-group">
-            <label for="ideadresa">Adresa</label>
-            <input type="text" class="form-control" id="ideadresa" placeholder="Adresa">
-          </div>
-          <div class="form-group form-check pl-4 pt-4">
-            <input type="checkbox" class="form-check-input" id="idrukavica">
-            <label class="form-check-label" for="idrukavica">Ne nosi rukavice</label>
-          </div>
-          <div class="form-group form-check pl-4">
-            <input type="checkbox" class="form-check-input" id="idruka">
-            <label class="form-check-label" for="idruka">Ne pere ruke</label>
-          </div>
-          <div class="form-group form-check pl-4">
-            <input type="checkbox" class="form-check-input" id="idmaska">
-            <label class="form-check-label" for="idmaska">Ne nosi masku</label>
-          </div>
-          <div class="form-group form-check pl-4">
-            <input type="checkbox" class="form-check-input" id="iddistanca">
-            <label class="form-check-label" for="iddistanca">Ne drži distancu</label>
-          </div>
-          <div class="form-group form-check pl-4">
-            <input type="checkbox" class="form-check-input" id="idkaslje">
-            <label class="form-check-label" for="idkaslje">Kašlje</label>
-          </div>
-          <div class="form-group form-check pl-4 pb-4">
-            <input type="checkbox" class="form-check-input" bind-Value="@boolvalue" id="idblid">
-            <label class="form-check-label" for="idblid">Malo mi je blid</label>
-          </div>
-          <div class="form-group pb-3">
-            <label for="idopis">Opis</label>
-            <textarea class="form-control" id="idopis" rows="3"></textarea>
-          </div>
-          <div class=""></div>
-          <button type="submit" class="btn btn-outline-dark float-right">Šu prijavi ga</button>
-        </form>
-      </div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div class="card pl-5 pr-5 pt-5 pb-5">
+                <EditForm Model="@_person" OnValidSubmit="HandleValidSubmit">
+                    <DataAnnotationsValidator/>
+                    <ValidationSummary/>
+                    <div class="form-group pt-3">
+                        <label for="ime">Ime</label>
+                        <InputText id="ime" class="form-control" @bind-Value="_person.Ime"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="prezime">Prezime</label>
+                        <InputText type="text" class="form-control" id="prezime" @bind-Value="_person.Prezime"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="adresa">Adresa</label>
+                        <InputText type="text" class="form-control" id="adresa" @bind-Value="_person.Adresa"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="grad">Grad</label>
+                        <InputText type="text" class="form-control" id="grad" @bind-Value="_person.Grad"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="postanskibroj">Poštanski broj</label>
+                        <InputText type="text" class="form-control" id="postanskibroj" @bind-Value="_person.PostanskiBroj"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="zupanija">Županija</label>
+                        <InputText type="text" class="form-control" id="zupanija" @bind-Value="_person.Zupanija"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="brojnoge">Broj noge</label>
+                        <InputText type="text" class="form-control" id="brojnoge" @bind-Value="_person.BrojNoge"/>
+                    </div>
+                    <div class="form-group form-check pl-4 pt-4">
+                        <input type="checkbox" class="form-check-input" id="idrukavica">
+                        <label class="form-check-label" for="idrukavica">Ne nosi rukavice</label>
+                    </div>
+                    <div class="form-group form-check pl-4">
+                        <input type="checkbox" class="form-check-input" id="ruke">
+                        <label class="form-check-label" for="ruke">Ne pere ruke</label>
+                    </div>
+                    <div class="form-group form-check pl-4">
+                        <input type="checkbox" class="form-check-input" id="maska">
+                        <label class="form-check-label" for="maska">Ne nosi masku</label>
+                    </div>
+                    <div class="form-group form-check pl-4">
+                        <input type="checkbox" class="form-check-input" id="distanca">
+                        <label class="form-check-label" for="distanca">Ne drži distancu</label>
+                    </div>
+                    <div class="form-group form-check pl-4">
+                        <input type="checkbox" class="form-check-input" id="kaslje">
+                        <label class="form-check-label" for="kaslje">Kašlje</label>
+                    </div>
+                    <div class="form-group form-check pl-4 pb-4">
+                        <input type="checkbox" class="form-check-input" id="blid">
+                        <label class="form-check-label" for="blid">Malo mi je blid</label>
+                    </div>
+                    <div class="form-group pb-3">
+                        <label for="opis">Opis</label>
+                        <textarea class="form-control" id="opis" rows="3"></textarea>
+                    </div>
+                    <div class=""></div>
+                    <button type="submit" class="btn btn-outline-dark float-right">Šu prijavi ga</button>
+                </EditForm>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col-3"></div>
+    <div class="col-3"></div>
 </div>
 
-@code
-{
-  public bool boolvalue { get; set; }
-  public bool rukavica { get; set; }
-  public bool ruke { get; set; }
-  public bool maska { get; set; }
-  public bool distanca { get; set; }
-  public bool blid { get; set; }
-  
-  void toggle()
-  {
-    boolvalue = !boolvalue;
-  }
-}
+@code {
+    private Person _person = new Person();
 
+    private void HandleValidSubmit()
+    {
+        Console.WriteLine("OnValidSubmit");
+    }
+
+
+}
