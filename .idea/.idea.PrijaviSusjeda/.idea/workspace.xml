@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/HitList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HitList.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Shared/MainLayout.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shared/SurveyPrompt.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/Person.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,7 +49,10 @@
         <option value="$PROJECT_DIR$/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/Pages/Index.razor" />
         <option value="$PROJECT_DIR$/Shared/MainLayout.razor" />
+        <option value="$PROJECT_DIR$/wwwroot/css/site.css" />
+        <option value="$PROJECT_DIR$/Data/Person.cs" />
         <option value="$PROJECT_DIR$/Pages/DodajSusjeda.razor" />
+        <option value="$PROJECT_DIR$/Pages/HitList.razor" />
       </list>
     </option>
   </component>
@@ -68,6 +73,7 @@
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.PrijaviSusjeda">
     <configuration name="MainLayout.razor" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PrijaviSusjeda/Shared/MainLayout.razor" useBuiltInWebServerPort="true">
@@ -161,21 +167,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585767462803" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1585836428930">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1585854655842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1585836428930">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585854655842" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1585854655842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1585836428930">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585854655842" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1585854655842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1585836428930">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585854655842" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1585854655842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585854655842" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585853608046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585853608046" />
+    <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1585849975282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="217" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585849975282" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1585849992851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585849992851" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585849953715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585849953715" />
   </component>
 </project>

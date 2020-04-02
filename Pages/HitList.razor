@@ -1,43 +1,53 @@
 ﻿@page "/hitlist"
+@using PrijaviSusjeda.Data
 
 <div class="container">
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
-            <h2>
-                Top susjedi
-            </h2>
-            <table class="table table-striped table-dark">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">First</th>
-                  <th scope="col">Last</th>
-                  <th scope="col">Handle</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>yes</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>yes</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>yes</td>
-                </tr>
-              </tbody>
-            </table>
-        </div>
-        <div class="col-2"></div>
-    </div>
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+      @if (people == null)
+      {
+          <p><em>Loading...</em></p>
+      }
+      else
+      {
+        <h2>
+          Top susjedi
+        </h2>
+        <table class="table table-striped table-dark">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Ime</th>
+            <th scope="col">Prezime</th>
+            <th scope="col">Adresa</th>
+            <th scope="col">Grad</th>
+            <th scope="col">Poštanski broj</th>
+            <th scope="col">Županija</th>
+            <th scope="col">Broj noge</th>
+          </tr>
+          </thead>
+          <tbody>
+          @foreach (var person in people)
+          {
+            <tr>
+              <td>@person.Ime</td>
+              <td>@person.Prezime</td>
+              <td>@person.Adresa</td>
+              <td>@person.Grad</td>
+              <td>@person.PostanskiBroj</td>
+              <td>@person.Zupanija</td>
+              <td>@person.BrojNoge</td>
+            </tr>
+          }
+          </tbody>
+        </table>
+      }
+      </div>
+    <div class="col-2"></div>
+  </div>
 </div>
+
+@code {
+  private Person[] people;
+}

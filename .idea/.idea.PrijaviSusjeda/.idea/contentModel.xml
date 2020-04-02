@@ -11,6 +11,7 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Data" t="Include">
+        <e p="Person.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
         <e p="WeatherForecastService.cs" t="Include" />
       </e>
