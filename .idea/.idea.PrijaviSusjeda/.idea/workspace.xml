@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <list default="true" id="228603f8-f567-4ac7-91a7-c369f7696e5f" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/contentModel.xml" afterDir="false" />
-=======
-    <list default="true" id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="favicon, removed files">
->>>>>>> 9fb1dcc7565f4c04efcfc6b757804eef0bdc02e0
+    <list default="true" id="f077067c-13f8-4e03-94a1-cf216f36562e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
     </list>
->>>>>>> 696478a4f649f8d6fbefe40b431f204faac1779b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,27 +17,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Pages/DodajSusjeda.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pages/HitList.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pages/DodajSusjeda.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/2a/7986a2d0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/App.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/_Imports.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0039E4FD-02E9-4B1D-A965-B5B9AAB9BC95/11/EventCallbackWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0039E4FD-02E9-4B1D-A965-B5B9AAB9BC95/8/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F7E99D07-583F-46BB-955E-A2D660BA798E/14/EditForm.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Data/People.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/_Host.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Index.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/People.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shared/NavMenu.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shared/MainLayout.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/HitList.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shared/SurveyPrompt.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/nikki/N/werk/new/faks/3. godina/6. semestar/Praktikum - DBulic/Rider/mini_projekt/mini_projekt/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Pages/DodajSusjeda.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/_Imports.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/DodajSusjeda.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,30 +42,16 @@
         <option value="$PROJECT_DIR$/Pages/Prijavisusjeda.cshtml.cs" />
         <option value="$PROJECT_DIR$/Pages/Dodaj Susjeda.razor" />
         <option value="$PROJECT_DIR$/Shared/NavMenu.razor" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/Pages/DodajSusjeda.razor" />
-        <option value="$PROJECT_DIR$/Pages/Index.razor" />
-        <option value="$PROJECT_DIR$/Shared/MainLayout.razor" />
-        <option value="$PROJECT_DIR$/wwwroot/css/site.css" />
-<<<<<<< HEAD
-=======
-=======
-        <option value="$PROJECT_DIR$/Shared/MainLayout.razor" />
-        <option value="$PROJECT_DIR$/wwwroot/css/site.css" />
         <option value="$USER_HOME$/Desktop/nikki/N/werk/new/faks/3. godina/6. semestar/Praktikum - DBulic/Rider/mini_projekt/mini_projekt/Program.cs" />
         <option value="$PROJECT_DIR$/Data/People.cs" />
         <option value="$PROJECT_DIR$/Pages/HitList.razor" />
->>>>>>> 9fb1dcc7565f4c04efcfc6b757804eef0bdc02e0
         <option value="$PROJECT_DIR$/Data/Person.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Pages/_Host.cshtml" />
+        <option value="$PROJECT_DIR$/Shared/MainLayout.razor" />
         <option value="$PROJECT_DIR$/Pages/DodajSusjeda.razor" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/Pages/HitList.razor" />
->>>>>>> c3d9e6586551ed0abcbae521a506697f7b53497a
-=======
+        <option value="$PROJECT_DIR$/wwwroot/css/site.css" />
         <option value="$PROJECT_DIR$/Pages/Index.razor" />
->>>>>>> 9fb1dcc7565f4c04efcfc6b757804eef0bdc02e0
       </list>
     </option>
   </component>
@@ -158,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585765126131</updated>
       <workItem from="1585765129510" duration="8123000" />
-      <workItem from="1585825640076" duration="12690000" />
+      <workItem from="1585825640076" duration="10930000" />
     </task>
     <task id="LOCAL-00001" summary="layout, form changes">
       <created>1585854730125</created>
@@ -221,51 +194,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585767462803" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585839530562">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585839530562" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585839530562">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585839530562" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585839530562">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585839530562" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585839530562">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585839530562" />
-=======
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1585854655842">
-=======
     <state width="414" height="466" key="DebuggerActiveHint" timestamp="1585862349490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="414" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1585862349490" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1585864599044">
->>>>>>> 9fb1dcc7565f4c04efcfc6b757804eef0bdc02e0
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585870016863">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585870016863" />
     <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585864599044" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1585864599044">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585870016863">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585870016863" />
     <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585864599044" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1585864599044">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585870016863">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585870016863" />
     <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585864599044" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1585864599044">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585870016863">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585836428930" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585870016863" />
     <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585864599044" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585862351095">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -347,6 +298,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585849953715" />
->>>>>>> c3d9e6586551ed0abcbae521a506697f7b53497a
   </component>
 </project>
