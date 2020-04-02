@@ -12,9 +12,8 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Data" t="Include">
+        <e p="People.cs" t="Include" />
         <e p="Person.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
-        <e p="WeatherForecastService.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -27,10 +26,7 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Pages" t="Include">
         <e p="_Host.cshtml" t="Include" />
-        <e p="Counter.razor" t="Include" />
         <e p="DodajSusjeda.razor" t="Include" />
-        <e p="Error.razor" t="Include" />
-        <e p="FetchData.razor" t="Include" />
         <e p="HitList.razor" t="Include" />
         <e p="Index.razor" t="Include" />
       </e>
