@@ -15,8 +15,8 @@ namespace PrijaviSusjeda.Data
         [Required]
         [StringLength(5, MinimumLength = 5, ErrorMessage = "Poštanski broj mora imati minimalno 5 brojeva!")]
         public string PostanskiBroj { get; set; }
-        public string BrojNoge { get; set; }
         [Range(1, 60, ErrorMessage = "To nije validan broj noge!")]
+        public int BrojNoge { get; set; }
         public bool Rukavica { get; set; }
         public bool Ruka { get; set; }
         public bool Maska { get; set; }
