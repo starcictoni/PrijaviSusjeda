@@ -1,5 +1,5 @@
 ﻿@page "/prijavisusjeda"
-@using System.Net.Sockets
+@inject NavigationManager NavigationManager
 @using PrijaviSusjeda.Data
 
 <div class="container">
@@ -84,5 +84,6 @@
     {
         Console.WriteLine("Forma je ok.");
         people.AddPerson(_person);
+        NavigationManager.NavigateTo("/hitlist");
     }
 }
