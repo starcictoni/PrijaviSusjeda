@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="hitlist done">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/WeatherForecastService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Counter.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Error.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/FetchData.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/_Host.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-    </list>
+    <list default="true" id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="favicon, removed files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585863405698</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="favicon, removed files">
+      <created>1585864502422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585864502422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +177,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="layout, form changes" />
     <MESSAGE value="hitlist done" />
-    <option name="LAST_COMMIT_MESSAGE" value="hitlist done" />
+    <MESSAGE value="favicon, removed files" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon, removed files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="617" y="148" key="#PrijaviSusjeda" timestamp="1585835313318">
