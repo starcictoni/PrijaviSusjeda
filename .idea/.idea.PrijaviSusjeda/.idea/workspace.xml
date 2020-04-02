@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="228603f8-f567-4ac7-91a7-c369f7696e5f" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PrijaviSusjeda/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/DodajSusjeda.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/MainLayout.razor" afterDir="false" />
+    </list>
+>>>>>>> 696478a4f649f8d6fbefe40b431f204faac1779b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,23 +21,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/_Imports.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/HitList.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/WeatherForecastService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pages/DodajSusjeda.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/_Host.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/FetchData.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Index.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Counter.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pages/Error.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shared/NavMenu.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shared/MainLayout.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shared/SurveyPrompt.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pages/HitList.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/_Imports.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pages/DodajSusjeda.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Data/WeatherForecastService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -36,7 +47,6 @@
         <option value="$PROJECT_DIR$/Pages/PrijaviSusjeda.cshtml.cs" />
         <option value="$PROJECT_DIR$/Pages/Prijavisusjeda.cshtml.cs" />
         <option value="$PROJECT_DIR$/Pages/Dodaj Susjeda.razor" />
-        <option value="$PROJECT_DIR$/Pages/HitList.razor" />
         <option value="$PROJECT_DIR$/Pages/_Host.cshtml" />
         <option value="$PROJECT_DIR$/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/Pages/DodajSusjeda.razor" />
@@ -65,6 +75,9 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.PrijaviSusjeda">
+    <configuration name="MainLayout.razor" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PrijaviSusjeda/Shared/MainLayout.razor" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="PrijaviSusjeda" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PrijaviSusjeda.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -72,6 +85,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
@@ -95,13 +109,23 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.PrijaviSusjeda" />
+      <item itemvalue=".NET Launch Settings Profile.PrijaviSusjeda: IIS Express" />
+      <item itemvalue="JavaScript Debug.MainLayout.razor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.MainLayout.razor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="551eed01-757b-4b73-ac32-5e2d5c61c566" name="Default Changelist" comment="" />
+      <changelist id="c51dff2b-8421-449e-bae6-1e46e5ee7bba" name="Default Changelist" comment="" />
       <created>1585765126131</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -130,8 +154,16 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585767462803">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="617" y="148" key="#PrijaviSusjeda" timestamp="1585835313318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="617" y="148" key="#PrijaviSusjeda/0.0.1920.1040@0.0.1920.1040" timestamp="1585835313318" />
+    <state x="417" y="88" key="#Web_Browsers" timestamp="1585835044730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="417" y="88" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1585835044730" />
+    <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585835408912">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585767462803" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585839530562">
