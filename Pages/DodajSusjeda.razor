@@ -38,34 +38,47 @@
                         <InputText type="text" class="form-control" id="brojnoge" @bind-Value="_person.BrojNoge"/>
                     </div>
                     <div class="form-group form-check pl-4 pt-4">
-                        <input type="checkbox" class="form-check-input" id="idrukavica">
-                        <label class="form-check-label" for="idrukavica">Ne nosi rukavice</label>
+                        <InputCheckbox type="checkbox" class="form-check-input" @bind-Value="_person.Rukavica" id="idrukavica"/>
+                        <label class="form-check-label" for="idrukavica">Ne nosi rukavice</label
+                        <p>@_person.Rukavica</p>
                     </div>
                     <div class="form-group form-check pl-4">
-                        <input type="checkbox" class="form-check-input" id="ruke">
+                        <InputCheckbox type="checkbox" class="form-check-input" @bind-Value="_person.Ruka" id="ruke"/>
                         <label class="form-check-label" for="ruke">Ne pere ruke</label>
+                        <p>@_person.Ruka</p>
                     </div>
                     <div class="form-group form-check pl-4">
-                        <input type="checkbox" class="form-check-input" id="maska">
+                        <InputCheckbox type="checkbox" class="form-check-input" @bind-Value="_person.Maska" id="maska"/>
                         <label class="form-check-label" for="maska">Ne nosi masku</label>
+                        <p>@_person.Maska</p>
                     </div>
                     <div class="form-group form-check pl-4">
-                        <input type="checkbox" class="form-check-input" id="distanca">
+                        <InputCheckbox type="checkbox" class="form-check-input" @bind-Value="_person.Distanca" id="distanca"/>
                         <label class="form-check-label" for="distanca">Ne drži distancu</label>
+                        <p>@_person.Distanca</p>
                     </div>
                     <div class="form-group form-check pl-4">
-                        <input type="checkbox" class="form-check-input" id="kaslje">
+                        <InputCheckbox type="checkbox" class="form-check-input" @bind-Value="_person.Kaslje" id="kaslje"/>
                         <label class="form-check-label" for="kaslje">Kašlje</label>
+                        <p>@_person.Kaslje</p>
+                    </div>
+                    <div class="form-group form-check pl-4">
+                        <InputCheckbox type="checkbox" class="form-check-input"@bind-Value="_person.Blid" id="blid"/>
+                        <label class="form-check-label" for="blid">Malo mi je blid</label>
+                        <p>@_person.Blid</p>
                     </div>
                     <div class="form-group form-check pl-4 pb-4">
-                        <input type="checkbox" class="form-check-input" id="blid">
-                        <label class="form-check-label" for="blid">Malo mi je blid</label>
+                        <InputCheckbox @onchange="toggle" type="checkbox" class="form-check-input"@bind-Value="_person.Samoizolacija" id="blid"/>
+                        <label class="form-check-label" for="blid">San čuja da bi triba bit u samoizolaciji</label>
+                        <p>@_person.Samoizolacija</p>
                     </div>
                     <div class="form-group pb-3">
                         <label for="opis">Opis</label>
                         <textarea class="form-control" id="opis" rows="3"></textarea>
                     </div>
                     <div class=""></div>
+                    <p>@_person.Rezultat</p>
+                    <button  @onclick="_person.Kalkuliraj" type="submit" class="btn btn-outline-dark float-right">Izracunaj mi</button>
                     <button type="submit" class="btn btn-outline-dark float-right">Šu prijavi ga</button>
                 </EditForm>
             </div>
@@ -76,11 +89,19 @@
 
 @code {
     private Person _person = new Person();
-
     private void HandleValidSubmit()
     {
         Console.WriteLine("OnValidSubmit");
     }
 
+    public bool Boolvalue { get; set; }
+    
+    void toggle()
+    {
+        Boolvalue = !Boolvalue;
+        
+        if(Boolvalue)
+        _person.Rezultat = +1;
+    }
 
 }
