@@ -27,9 +27,17 @@ app {
     display: flex;
     align-items: center;
 }
-.container {
-    width: 100%;
+.container-fluid {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
+.smanjisliku {
+    width: 100%;
+    height: 400px !important;
+}
+
 
 .main {
     flex: 1;
@@ -45,6 +53,10 @@ app {
             white-space: nowrap;
             margin-left: 1.5rem;
         }
+.main > div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 
 .main .top-row a:first-child {
     overflow: hidden;
@@ -173,8 +185,6 @@ app {
     }
 
     .main > div {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
     }
 
     .navbar-toggler {
